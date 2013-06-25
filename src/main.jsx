@@ -34,6 +34,9 @@ class _Main {
                 if (m) {
                     var x = m.clientX - canvas.offsetLeft + dom.window.scrollX;
                     var y = m.clientY - canvas.offsetTop + dom.window.scrollY;
+                    x -= imgShape.bounds.width * 0.5 * 0.5;
+                    y -= imgShape.bounds.height * 0.5 * 0.5;
+
                     node.setPosition(x, y);
                 }
                 eye.render();
