@@ -37,6 +37,8 @@ build/main.js にコンバートされます.
 $grunt jsx
 ```
 
+build/index.html で build/main.js を使ったサンプルを見れます.
+
 
 ### watch jsx file
 
