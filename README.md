@@ -25,6 +25,8 @@ $git submodule update
 $npm install
 ```
 
+※ grunt-cli をグローバルインストールしておく必要あり
+
 
 ### jsx convert to js
 
