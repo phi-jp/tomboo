@@ -13,7 +13,7 @@ class _Main {
         canvas.width  = 465;
         canvas.height = 465;
         dom.document.body.appendChild(canvas);
-
+        
         var eye = new Eye(canvas);
 
         var layer = new Layer(465, 465);

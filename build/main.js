@@ -1,4 +1,4 @@
-// generatedy by JSX compiler 0.9.44 (2013-06-25 09:37:20 +0900; 9591ad3b92a4fae6ef2dcde12a60e65f94bc7c1e)
+// generatedy by JSX compiler 0.9.46 (2013-06-26 13:49:48 -0700; 6bcec7240dd5d26e7bf0f08a736f011813d901c3)
 var JSX = {};
 (function (JSX) {
 /**
@@ -120,7 +120,7 @@ function _Main$main$AS(args) {
 	canvas = (function ($v) {
 		if (! ($v == null || $v instanceof HTMLCanvasElement)) {
 			debugger;
-			throw new Error("[./src/Main.jsx:12:49] detected invalid cast, value is not an instance of the designated type or null\n        var canvas = dom.createElement(\"canvas\") as HTMLCanvasElement;\n                                                 ^^\n");
+			throw new Error("[src/main.jsx:12:49] detected invalid cast, value is not an instance of the designated type or null\n        var canvas = dom.createElement(\"canvas\") as HTMLCanvasElement;\n                                                 ^^\n");
 		}
 		return $v;
 	}(dom$createElement$S("canvas")));
@@ -133,7 +133,7 @@ function _Main$main$AS(args) {
 	img = (function ($v) {
 		if (! ($v == null || $v instanceof HTMLImageElement)) {
 			debugger;
-			throw new Error("[./src/Main.jsx:22:43] detected invalid cast, value is not an instance of the designated type or null\n        var img = dom.createElement(\"img\") as HTMLImageElement;\n                                           ^^\n");
+			throw new Error("[src/main.jsx:22:43] detected invalid cast, value is not an instance of the designated type or null\n        var img = dom.createElement(\"img\") as HTMLImageElement;\n                                           ^^\n");
 		}
 		return $v;
 	}(dom$createElement$S("img")));
@@ -152,7 +152,7 @@ function _Main$main$AS(args) {
 			m = (function ($v) {
 				if (! ($v == null || $v instanceof MouseEvent)) {
 					debugger;
-					throw new Error("[./src/Main.jsx:33:26] detected invalid cast, value is not an instance of the designated type or null\n                var m = e as MouseEvent;\n                          ^^\n");
+					throw new Error("[src/main.jsx:33:26] detected invalid cast, value is not an instance of the designated type or null\n                var m = e as MouseEvent;\n                          ^^\n");
 				}
 				return $v;
 			}(e));
@@ -179,7 +179,7 @@ function dom$id$S(id) {
 	return (function ($v) {
 		if (! ($v == null || $v instanceof HTMLElement)) {
 			debugger;
-			throw new Error("[/Users/phi/.nvm/v0.10.0/lib/node_modules/jsx/lib/js/js/web.jsx:29:47] detected invalid cast, value is not an instance of the designated type or null\n        return dom.document.getElementById(id) as HTMLElement;\n                                               ^^\n");
+			throw new Error("[/Users/uematsu.yuki/.nvm/v0.8.8/lib/node_modules/jsx/lib/js/js/web.jsx:29:47] detected invalid cast, value is not an instance of the designated type or null\n        return dom.document.getElementById(id) as HTMLElement;\n                                               ^^\n");
 		}
 		return $v;
 	}(dom.document.getElementById(id)));
@@ -191,7 +191,7 @@ function dom$getElementById$S(id) {
 	return (function ($v) {
 		if (! ($v == null || $v instanceof HTMLElement)) {
 			debugger;
-			throw new Error("[/Users/phi/.nvm/v0.10.0/lib/node_modules/jsx/lib/js/js/web.jsx:37:47] detected invalid cast, value is not an instance of the designated type or null\n        return dom.document.getElementById(id) as HTMLElement;\n                                               ^^\n");
+			throw new Error("[/Users/uematsu.yuki/.nvm/v0.8.8/lib/node_modules/jsx/lib/js/js/web.jsx:37:47] detected invalid cast, value is not an instance of the designated type or null\n        return dom.document.getElementById(id) as HTMLElement;\n                                               ^^\n");
 		}
 		return $v;
 	}(dom.document.getElementById(id)));
@@ -203,7 +203,7 @@ function dom$createElement$S(tag) {
 	return (function ($v) {
 		if (! ($v == null || $v instanceof HTMLElement)) {
 			debugger;
-			throw new Error("[/Users/phi/.nvm/v0.10.0/lib/node_modules/jsx/lib/js/js/web.jsx:45:47] detected invalid cast, value is not an instance of the designated type or null\n        return dom.document.createElement(tag) as __noconvert__ HTMLElement;\n                                               ^^\n");
+			throw new Error("[/Users/uematsu.yuki/.nvm/v0.8.8/lib/node_modules/jsx/lib/js/js/web.jsx:45:47] detected invalid cast, value is not an instance of the designated type or null\n        return dom.document.createElement(tag) as __noconvert__ HTMLElement;\n                                               ^^\n");
 		}
 		return $v;
 	}(dom.document.createElement(tag)));
@@ -583,7 +583,7 @@ Eye.prototype._initialize$NN = function (width, height) {
 	canvas = (function ($v) {
 		if (! ($v == null || $v instanceof HTMLCanvasElement)) {
 			debugger;
-			throw new Error("[../Tombo.js/src/Eye/Eye.jsx:50:49] detected invalid cast, value is not an instance of the designated type or null\n        var canvas = dom.createElement(\"canvas\") as HTMLCanvasElement;\n                                                 ^^\n");
+			throw new Error("[libs/Tombo.js/src/Eye/Eye.jsx:50:49] detected invalid cast, value is not an instance of the designated type or null\n        var canvas = dom.createElement(\"canvas\") as HTMLCanvasElement;\n                                                 ^^\n");
 		}
 		return $v;
 	}(dom$createElement$S("canvas")));
@@ -609,7 +609,7 @@ Eye.prototype._setCanvas$LHTMLCanvasElement$ = function (canvas) {
 	this._ctx = (function ($v) {
 		if (! ($v == null || $v instanceof CanvasRenderingContext2D)) {
 			debugger;
-			throw new Error("[../Tombo.js/src/Eye/Eye.jsx:67:44] detected invalid cast, value is not an instance of the designated type or null\n        this._ctx = canvas.getContext(\"2d\") as CanvasRenderingContext2D;\n                                            ^^\n");
+			throw new Error("[libs/Tombo.js/src/Eye/Eye.jsx:67:44] detected invalid cast, value is not an instance of the designated type or null\n        this._ctx = canvas.getContext(\"2d\") as CanvasRenderingContext2D;\n                                            ^^\n");
 		}
 		return $v;
 	}(canvas.getContext("2d")));
@@ -781,7 +781,7 @@ Layer.prototype._modifyCanvas$ = function () {
 		this._canvas = (function ($v) {
 			if (! ($v == null || $v instanceof HTMLCanvasElement)) {
 				debugger;
-				throw new Error("[../Tombo.js/src/Eye/Layer.jsx:81:55] detected invalid cast, value is not an instance of the designated type or null\n            this._canvas = dom.createElement(\"canvas\") as HTMLCanvasElement;\n                                                       ^^\n");
+				throw new Error("[libs/Tombo.js/src/Eye/Layer.jsx:81:55] detected invalid cast, value is not an instance of the designated type or null\n            this._canvas = dom.createElement(\"canvas\") as HTMLCanvasElement;\n                                                       ^^\n");
 			}
 			return $v;
 		}(dom$createElement$S("canvas")));
@@ -793,7 +793,7 @@ Layer.prototype._modifyCanvas$ = function () {
 	this._ctx = (function ($v) {
 		if (! ($v == null || $v instanceof CanvasRenderingContext2D)) {
 			debugger;
-			throw new Error("[../Tombo.js/src/Eye/Layer.jsx:87:50] detected invalid cast, value is not an instance of the designated type or null\n        this._ctx = this._canvas.getContext(\"2d\") as CanvasRenderingContext2D;\n                                                  ^^\n");
+			throw new Error("[libs/Tombo.js/src/Eye/Layer.jsx:87:50] detected invalid cast, value is not an instance of the designated type or null\n        this._ctx = this._canvas.getContext(\"2d\") as CanvasRenderingContext2D;\n                                                  ^^\n");
 		}
 		return $v;
 	}(this._canvas.getContext("2d")));
@@ -825,13 +825,13 @@ Layer.prototype._addNodeToBin$LDisplayNode$ = function (node) {
 			return (function (v) {
 				if (! (v != null)) {
 					debugger;
-					throw new Error("[../Tombo.js/src/Eye/Layer.jsx:105:56] null access\n            this._orderDrawBins.sort((a, b) -> { return a - b; });\n                                                        ^\n");
+					throw new Error("[libs/Tombo.js/src/Eye/Layer.jsx:105:56] null access\n            this._orderDrawBins.sort((a, b) -> { return a - b; });\n                                                        ^\n");
 				}
 				return v;
 			}(a)) - (function (v) {
 				if (! (v != null)) {
 					debugger;
-					throw new Error("[../Tombo.js/src/Eye/Layer.jsx:105:60] null access\n            this._orderDrawBins.sort((a, b) -> { return a - b; });\n                                                            ^\n");
+					throw new Error("[libs/Tombo.js/src/Eye/Layer.jsx:105:60] null access\n            this._orderDrawBins.sort((a, b) -> { return a - b; });\n                                                            ^\n");
 				}
 				return v;
 			}(b));
@@ -939,39 +939,39 @@ Layer.prototype._render$ = function () {
 			width = (function (v) {
 				if (! (v != null)) {
 					debugger;
-					throw new Error("[../Tombo.js/src/Eye/Layer.jsx:186:34] null access\n                var width = region[2] - x;\n                                  ^\n");
+					throw new Error("[libs/Tombo.js/src/Eye/Layer.jsx:186:34] null access\n                var width = region[2] - x;\n                                  ^\n");
 				}
 				return v;
 			}(region[2])) - (function (v) {
 				if (! (v != null)) {
 					debugger;
-					throw new Error("[../Tombo.js/src/Eye/Layer.jsx:186:40] null access\n                var width = region[2] - x;\n                                        ^\n");
+					throw new Error("[libs/Tombo.js/src/Eye/Layer.jsx:186:40] null access\n                var width = region[2] - x;\n                                        ^\n");
 				}
 				return v;
 			}(x));
 			height = (function (v) {
 				if (! (v != null)) {
 					debugger;
-					throw new Error("[../Tombo.js/src/Eye/Layer.jsx:187:35] null access\n                var height = region[3] - y;\n                                   ^\n");
+					throw new Error("[libs/Tombo.js/src/Eye/Layer.jsx:187:35] null access\n                var height = region[3] - y;\n                                   ^\n");
 				}
 				return v;
 			}(region[3])) - (function (v) {
 				if (! (v != null)) {
 					debugger;
-					throw new Error("[../Tombo.js/src/Eye/Layer.jsx:187:41] null access\n                var height = region[3] - y;\n                                         ^\n");
+					throw new Error("[libs/Tombo.js/src/Eye/Layer.jsx:187:41] null access\n                var height = region[3] - y;\n                                         ^\n");
 				}
 				return v;
 			}(y));
 			context.rect((function (v) {
 				if (! (v != null)) {
 					debugger;
-					throw new Error("[../Tombo.js/src/Eye/Layer.jsx:188:29] null access\n                context.rect(x, y, width, height);\n                             ^\n");
+					throw new Error("[libs/Tombo.js/src/Eye/Layer.jsx:188:29] null access\n                context.rect(x, y, width, height);\n                             ^\n");
 				}
 				return v;
 			}(x)), (function (v) {
 				if (! (v != null)) {
 					debugger;
-					throw new Error("[../Tombo.js/src/Eye/Layer.jsx:188:32] null access\n                context.rect(x, y, width, height);\n                                ^\n");
+					throw new Error("[libs/Tombo.js/src/Eye/Layer.jsx:188:32] null access\n                context.rect(x, y, width, height);\n                                ^\n");
 				}
 				return v;
 			}(y)), width, height);
@@ -982,7 +982,7 @@ Layer.prototype._render$ = function () {
 			binIndex = (function (v) {
 				if (! (v != null)) {
 					debugger;
-					throw new Error("[../Tombo.js/src/Eye/Layer.jsx:193:50] null access\n                var binIndex = this._orderDrawBins[i] as string;\n                                                  ^\n");
+					throw new Error("[libs/Tombo.js/src/Eye/Layer.jsx:193:50] null access\n                var binIndex = this._orderDrawBins[i] as string;\n                                                  ^\n");
 				}
 				return v;
 			}(this._orderDrawBins[i])) + "";
@@ -1005,7 +1005,7 @@ Layer.prototype._render$ = function () {
 		binIndex = (function (v) {
 			if (! (v != null)) {
 				debugger;
-				throw new Error("[../Tombo.js/src/Eye/Layer.jsx:209:46] null access\n            var binIndex = this._orderDrawBins[i] as string;\n                                              ^\n");
+				throw new Error("[libs/Tombo.js/src/Eye/Layer.jsx:209:46] null access\n            var binIndex = this._orderDrawBins[i] as string;\n                                              ^\n");
 			}
 			return v;
 		}(this._orderDrawBins[i])) + "";
@@ -1048,25 +1048,25 @@ Layer.prototype.hasIntersection$LRect$ = function (rectangle) {
 		if (Math.max(minX, (function (v) {
 			if (! (v != null)) {
 				debugger;
-				throw new Error("[../Tombo.js/src/Eye/Layer.jsx:245:36] null access\n            if(Math.max(minX, region[0]) < Math.min(maxX, region[2]) && Math.max(minY, region[1]) < Math.min(maxY, region[3])) {\n                                    ^\n");
+				throw new Error("[libs/Tombo.js/src/Eye/Layer.jsx:245:36] null access\n            if(Math.max(minX, region[0]) < Math.min(maxX, region[2]) && Math.max(minY, region[1]) < Math.min(maxY, region[3])) {\n                                    ^\n");
 			}
 			return v;
 		}(region[0]))) < Math.min(maxX, (function (v) {
 			if (! (v != null)) {
 				debugger;
-				throw new Error("[../Tombo.js/src/Eye/Layer.jsx:245:64] null access\n            if(Math.max(minX, region[0]) < Math.min(maxX, region[2]) && Math.max(minY, region[1]) < Math.min(maxY, region[3])) {\n                                                                ^\n");
+				throw new Error("[libs/Tombo.js/src/Eye/Layer.jsx:245:64] null access\n            if(Math.max(minX, region[0]) < Math.min(maxX, region[2]) && Math.max(minY, region[1]) < Math.min(maxY, region[3])) {\n                                                                ^\n");
 			}
 			return v;
 		}(region[2]))) && Math.max(minY, (function (v) {
 			if (! (v != null)) {
 				debugger;
-				throw new Error("[../Tombo.js/src/Eye/Layer.jsx:245:93] null access\n            if(Math.max(minX, region[0]) < Math.min(maxX, region[2]) && Math.max(minY, region[1]) < Math.min(maxY, region[3])) {\n                                                                                             ^\n");
+				throw new Error("[libs/Tombo.js/src/Eye/Layer.jsx:245:93] null access\n            if(Math.max(minX, region[0]) < Math.min(maxX, region[2]) && Math.max(minY, region[1]) < Math.min(maxY, region[3])) {\n                                                                                             ^\n");
 			}
 			return v;
 		}(region[1]))) < Math.min(maxY, (function (v) {
 			if (! (v != null)) {
 				debugger;
-				throw new Error("[../Tombo.js/src/Eye/Layer.jsx:245:121] null access\n            if(Math.max(minX, region[0]) < Math.min(maxX, region[2]) && Math.max(minY, region[1]) < Math.min(maxY, region[3])) {\n                                                                                                                         ^\n");
+				throw new Error("[libs/Tombo.js/src/Eye/Layer.jsx:245:121] null access\n            if(Math.max(minX, region[0]) < Math.min(maxX, region[2]) && Math.max(minY, region[1]) < Math.min(maxY, region[3])) {\n                                                                                                                         ^\n");
 			}
 			return v;
 		}(region[3])))) {
@@ -1334,7 +1334,7 @@ DisplayNode.prototype._render$LCanvasRenderingContext2D$ = function (ctx) {
 		(function (o, p, a) { return o[p].apply(o, a); }(ctx, "transform", (function ($v) {
 			if (! ($v == null || $v instanceof Array)) {
 				debugger;
-				throw new Error("[../Tombo.js/src/Eye/DisplayNode.jsx:277:47] detected invalid cast, value is not an Array or null\n            js.invoke(ctx, \"transform\", matrix as __noconvert__ variant[]);\n                                               ^^\n");
+				throw new Error("[libs/Tombo.js/src/Eye/DisplayNode.jsx:277:47] detected invalid cast, value is not an Array or null\n            js.invoke(ctx, \"transform\", matrix as __noconvert__ variant[]);\n                                               ^^\n");
 			}
 			return $v;
 		}(matrix))));
@@ -1347,7 +1347,7 @@ DisplayNode.prototype._render$LCanvasRenderingContext2D$ = function (ctx) {
 	(function (o, p, a) { return o[p].apply(o, a); }(ctx, "transform", (function ($v) {
 		if (! ($v == null || $v instanceof Array)) {
 			debugger;
-			throw new Error("[../Tombo.js/src/Eye/DisplayNode.jsx:284:43] detected invalid cast, value is not an Array or null\n        js.invoke(ctx, \"transform\", matrix as __noconvert__ variant[]);\n                                           ^^\n");
+			throw new Error("[libs/Tombo.js/src/Eye/DisplayNode.jsx:284:43] detected invalid cast, value is not an Array or null\n        js.invoke(ctx, \"transform\", matrix as __noconvert__ variant[]);\n                                           ^^\n");
 		}
 		return $v;
 	}(matrix))));
@@ -1764,7 +1764,7 @@ $__jsx_lazy_init(dom, "document", function () {
 	return (function ($v) {
 		if (! ($v == null || $v instanceof HTMLDocument)) {
 			debugger;
-			throw new Error("[/Users/phi/.nvm/v0.10.0/lib/node_modules/jsx/lib/js/js/web.jsx:23:50] detected invalid cast, value is not an instance of the designated type or null\n    static const document = js.global[\"document\"] as __noconvert__ HTMLDocument;\n                                                  ^^\n");
+			throw new Error("[/Users/uematsu.yuki/.nvm/v0.8.8/lib/node_modules/jsx/lib/js/js/web.jsx:23:50] detected invalid cast, value is not an instance of the designated type or null\n    static const document = js.global[\"document\"] as __noconvert__ HTMLDocument;\n                                                  ^^\n");
 		}
 		return $v;
 	}(js.global.document));
@@ -1786,7 +1786,7 @@ var $__jsx_classMap = {
 		g_StopIteration: g_StopIteration,
 		g_StopIteration$: g_StopIteration
 	},
-	"./src/Main.jsx": {
+	"src/main.jsx": {
 		_Main: _Main,
 		_Main$: _Main
 	},
@@ -1874,18 +1874,18 @@ var $__jsx_classMap = {
 		DeviceMotionEventInit: DeviceMotionEventInit,
 		DeviceMotionEventInit$: DeviceMotionEventInit
 	},
-	"../Tombo.js/src/Eye/Eye.jsx": {
+	"libs/Tombo.js/src/Eye/Eye.jsx": {
 		Eye: Eye,
 		Eye$LHTMLCanvasElement$: Eye,
 		Eye$NN: Eye$0,
 		Eye$: Eye$1
 	},
-	"../Tombo.js/src/Eye/Layer.jsx": {
+	"libs/Tombo.js/src/Eye/Layer.jsx": {
 		Layer: Layer,
 		Layer$NN: Layer,
 		Layer$NNLLayoutInformation$: Layer$0
 	},
-	"../Tombo.js/src/Eye/DisplayNode.jsx": {
+	"libs/Tombo.js/src/Eye/DisplayNode.jsx": {
 		DisplayNode: DisplayNode,
 		DisplayNode$LShape$NNNNN: DisplayNode,
 		DisplayNode$LShape$NNNN: DisplayNode$0,
@@ -1893,18 +1893,18 @@ var $__jsx_classMap = {
 		DisplayNode$LShape$: DisplayNode$2,
 		DisplayNode$LShape$AN: DisplayNode$3
 	},
-	"../Tombo.js/src/Eye/LayoutInformation.jsx": {
+	"libs/Tombo.js/src/Eye/LayoutInformation.jsx": {
 		LayoutInformation: LayoutInformation,
 		LayoutInformation$: LayoutInformation,
 		LayoutInformation$S: LayoutInformation$0,
 		LayoutInformation$I: LayoutInformation$1,
 		LayoutInformation$IS: LayoutInformation$2
 	},
-	"../Tombo.js/src/Tombo.jsx": {
+	"libs/Tombo.js/src/Tombo.jsx": {
 		Tombo: Tombo,
 		Tombo$: Tombo
 	},
-	"../Tombo.js/src/BasicTypes.jsx": {
+	"libs/Tombo.js/src/BasicTypes.jsx": {
 		Rect: Rect,
 		Rect$NNNN: Rect,
 		Rect$: Rect$0,
@@ -1916,7 +1916,7 @@ var $__jsx_classMap = {
 		Color: Color,
 		Color$: Color
 	},
-	"../Tombo.js/src/Eye/DisplayGroup.jsx": {
+	"libs/Tombo.js/src/Eye/DisplayGroup.jsx": {
 		DisplayGroup: DisplayGroup,
 		DisplayGroup$NNNNN: DisplayGroup,
 		DisplayGroup$NNNN: DisplayGroup$0,
@@ -1924,11 +1924,11 @@ var $__jsx_classMap = {
 		DisplayGroup$AN: DisplayGroup$2,
 		DisplayGroup$: DisplayGroup$3
 	},
-	"../Tombo.js/src/Eye/Shape.jsx": {
+	"libs/Tombo.js/src/Eye/Shape.jsx": {
 		Shape: Shape,
 		Shape$: Shape
 	},
-	"../Tombo.js/src/Eye/Shapes/ImageShape.jsx": {
+	"libs/Tombo.js/src/Eye/Shapes/ImageShape.jsx": {
 		ImageShape: ImageShape,
 		ImageShape$LHTMLImageElement$: ImageShape
 	}
@@ -1995,7 +1995,7 @@ JSX.runTests = function (sourceFile, tests) {
 function $__jsx_onload (event) {
 	window.removeEventListener("load", $__jsx_onload);
 	document.removeEventListener("DOMContentLoaded", $__jsx_onload);
-	JSX.runMain("./src/Main.jsx", [])
+	JSX.runMain("src/main.jsx", [])
 }
 
 window.addEventListener("load", $__jsx_onload);
