@@ -11,7 +11,7 @@ $cd tomboo
 
 ### setup
 
-Tombo.js を submodule として使っているので
+[Tombo.js](https://github.com/tkihira/Tombo.js) を submodule として使っているので
 下記コマンドで submodule のセットアップをしてください.
 
 ```
