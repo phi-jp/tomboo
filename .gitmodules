@@ -1,0 +1,6 @@
+[submodule "Tombo.js"]
+	path = Tombo.js
+	url = git@github.com:tkihira/Tombo.js.git
+[submodule "libs/Tombo.js"]
+	path = libs/Tombo.js
+	url = git@github.com:tkihira/Tombo.js.git
